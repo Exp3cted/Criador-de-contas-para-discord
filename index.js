@@ -190,7 +190,7 @@ const execute = async function() {
         body: `{"token":"${tokenCap}","captcha_key":"${captchaResponse2}"}`
     })).body)
     console.log({ criado: true, token: token, email: mail, nomeconta: nomemail, status: `Email Confirmado`})
-    fs.appendFile('confirmadasx.txt', `Conta Criada - Nome: ${nomemail} - Email: ${mail} - Token: "${token}" - Status: Email Confirmado! #Expected `+ '\n', () => {})
+    fs.appendFile('Criadas.txt', `Conta Criada - Nome: ${nomemail} - Email: ${mail} - Token: "${token}" - Status: Email Confirmado! #Expected `+ '\n', () => {})
     let resultado = 'confirmado';
     console.log("CONTA FINALIZADA!");
     return { status: true };
