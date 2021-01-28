@@ -220,12 +220,11 @@ async function start(){
 start();
 app.listen(porta, () => {
 
-console.log(`           _`
-console.log(`     /\   | | `                     
-console.log(`    /  \  | |__  _   _ ___ ___ ___ `
-console.log(`   / /\ \ | '_ \| | | / __/ __/ __|`
-console.log(`  / ____ \| |_) | |_| \__ \__ \__ \`
-console.log(` /_/    \_\_.__/ \__, |___/___/___/`
+console.log(`   _____ _             _`
+console.log(`  / ____(_)           | |`     
+console.log(` | (___  _ _ __   __ _| | ___` 
+console.log(`  ____) | | | | | (_| | |  __/`
+console.log(` |_____/|_|_| |_|\__, |_|\___|`
 console.log(`                  __/ |`
 console.log(`                 |___/`
 
